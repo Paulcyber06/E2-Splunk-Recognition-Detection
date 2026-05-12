@@ -18,7 +18,7 @@
 
 ## 1. Contexte
 
-Cette analyse est basée sur les fichiers `tutorialdata.zip` et `price.csv.zip`, disponibles en libre accès et fournis directement par la plateforme Splunk.
+Cette analyse est basée sur le fichier `tutorialdata.zip`, disponibles en libre accès et fournis directement par la plateforme Splunk.
 
 Après plusieurs traitements d'alertes anormales dans notre dashboard, on décide de vérifier si une machine malveillante ne fait pas un scan de reconnaissance dans le but de trouver une porte dérobée et de tenter de nous attaquer. Ce type de reconnaissance dite "slow and low" — basse fréquence, longue durée — est délibérément conçu pour passer sous les radars des systèmes de détection basés sur le volume.
 
@@ -142,4 +142,4 @@ Dans un environnement d'entreprise, voici comment une équipe SOC répondrait :
 
 ---
 
-*Fichiers utilisés : `tutorialdata.zip` et `price.csv.zip` — disponibles en libre accès sur la plateforme Splunk.*
+*Fichiers utilisés : `tutorialdata.zip` — disponibles en libre accès sur la plateforme Splunk.*
