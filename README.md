@@ -45,7 +45,7 @@ Cela peut arriver dans des cas normaux :
 
 ![Observation initiale — 690 événements](1.png)
 
-> ⚠️ Dans notre situation, nous considérons que **690 événements représente beaucoup de requêtes** et on veut approfondir afin de vérifier que rien n'est anormal. On considère que **1 à 2 requêtes `404` par adresse IP** reste relativement normal. À l'inverse, **200 requêtes** devient une situation anormale et pourrait signifier un scan en cours ou récent.
+> ⚠️ 690 événements méritent une investigation pour s'assurer qu'aucune IP ne concentre un volume anormal de requêtes. On considère que 1 à 2 requêtes 404 par adresse IP reste relativement normal. À l'inverse, une IP qui revient régulièrement sur les mêmes URLs sensibles devient une situation anormale et pourrait signifier une reconnaissance active en cours.
 
 ---
 
