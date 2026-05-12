@@ -20,7 +20,7 @@
 
 Cette analyse est basée sur les fichiers `tutorialdata.zip` et `price.csv.zip`, disponibles en libre accès et fournis directement par la plateforme Splunk.
 
-Après plusieurs traitements d'alertes anormales dans notre dashboard, on décide de vérifier si une machine malveillante ne fait pas un scan de reconnaissance dans le but de trouver une porte dérobée et de tenter de nous attaquer.
+Après plusieurs traitements d'alertes anormales dans notre dashboard, on décide de vérifier si une machine malveillante ne fait pas un scan de reconnaissance dans le but de trouver une porte dérobée et de tenter de nous attaquer. Ce type de reconnaissance dite "slow and low" — basse fréquence, longue durée — est délibérément conçu pour passer sous les radars des systèmes de détection basés sur le volume.
 
 ---
 
@@ -114,6 +114,8 @@ En examinant cette dernière capture, on peut voir que l'attaquant essaie d'acc�
 | Tentative d'accès à `password.pdf` (x3) | ❌ Cible de fichiers sensibles |
 | Requêtes espacées dans le temps | ⚠️ Reconnaissance manuelle probable |
 
+Ce qui rend cette reconnaissance particulièrement préoccupante, c'est sa persistance : la même IP tente d'accéder à /passwords.pdf à trois reprises, sur des jours différents. Ce n'est pas opportuniste — c'est méthodique. L'attaquant reviendra tant qu'il n'aura pas trouvé ce qu'il cherche.
+
 On peut en conclure qu'il s'agit d'une personne en **reconnaissance active**, avec des intentions malveillantes, qui cherche des chemins d'accès et tente d'atteindre des fichiers sensibles de la société. Elle reviendra tant qu'elle n'aura pas trouvé ce qu'elle cherche — on suppose une porte ouverte afin de pénétrer dans notre serveur et d'agir.
 
 ---
@@ -128,11 +130,14 @@ Dans un environnement d'entreprise, voici comment une équipe SOC répondrait :
 
 ### 🔔 Détection
 
-- Créer une alerte pour détecter toute tentative d'accès à `/passwords.pdf`
-
+- Créer une alerte pour détecter toute tentative d'accès à /passwords.pdf
+- Créer une alerte sur tout accès à un répertoire /hidden/
+- Vérifier si d'autres IPs ont tenté les mêmes URLs sensibles sur la même période
+  
 ### 🔍 Investigation complémentaire
 
 - Vérifier les requêtes `200` (Status OK) de cette IP pour savoir si elle a réussi à accéder à quelque chose
+  
 - Escalader selon les découvertes
 
 ---
