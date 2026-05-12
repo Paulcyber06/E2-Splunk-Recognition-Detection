@@ -1,4 +1,4 @@
-# Splunk SPL Basics: Détection d'un Scan de Reconnaissance
+# Splunk SPL Basics : Détection d'un Scan de Reconnaissance
 
 > Utilisation de requêtes **SPL (Search Processing Language)** dans Splunk Enterprise pour détecter une activité de scan de reconnaissance sur un serveur web. L'objectif est d'identifier une IP suspecte, d'analyser son comportement et d'en tirer une réponse opérationnelle adaptée.
 
