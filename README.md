@@ -60,7 +60,7 @@ index=main sourcetype="access_combined_wcookie" status=404
 | head 10
 ```
 
-Nous trouvons **10 adresses IP** au total, avec la première qui cumule **20 requêtes**. Rien d'anormal dans la vie de tous les jours, mais dans notre scénario, nous allons considérer que cela est étrange afin de faciliter la suite de l'enquête.
+Nous trouvons **10 adresses IP** au total, avec la première qui cumule **20 requêtes**. Rien d'anormal dans la vie de tous les jours, mais dans notre scénario, nous allons considérer que cela est étrange afin de faciliter la suite de l'enquête. 😉​
 
 ![Top 10 des adresses IP par nombre de requêtes 404](2.png)
 
