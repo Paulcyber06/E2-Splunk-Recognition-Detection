@@ -107,7 +107,7 @@ En examinant cette dernière capture, on peut voir que l'attaquant essaie d'acc�
 
 ## 6. Conclusion
 
-> 🔴 **Cette IP est en train de mener une reconnaissance active avec des intentions malveillantes.**
+> 🔴 ** À première vue, Cette IP est en train de mener une reconnaissance active avec des intentions malveillantes.**
 
 | Indicateur | Constat |
 |---|---|
