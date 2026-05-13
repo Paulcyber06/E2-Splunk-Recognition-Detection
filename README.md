@@ -18,9 +18,9 @@
 
 ## 1. Contexte
 
-Cette analyse est basée sur le fichier `tutorialdata.zip`, disponibles en libre accès et fournis directement par la plateforme Splunk.
+Quelques jours après la tentative de phishing, les logs du serveur web de Buttercup Games révèlent une activité anormale. Une adresse IP inconnue sonde activement l'application web à la recherche de fichiers sensibles — notamment `/passwords.pdf`.
 
-Après plusieurs traitements d'alertes anormales dans notre dashboard, on décide de vérifier si une machine malveillante ne fait pas un scan de reconnaissance dans le but de trouver une porte dérobée et de tenter de nous attaquer. Ce type de reconnaissance dite "slow and low" — basse fréquence, longue durée — est délibérément conçu pour passer sous les radars des systèmes de détection basés sur le volume.
+Le SOC lance une investigation via Splunk pour identifier et caractériser cette activité de reconnaissance. L'attaquant, n'ayant pas réussi à piéger un employé par phishing, tente maintenant d'obtenir directement des informations d'accès. Ce type de reconnaissance dite "slow and low" — basse fréquence, longue durée — est délibérément conçu pour passer sous les radars des systèmes de détection basés sur le volume.
 
 ---
 
