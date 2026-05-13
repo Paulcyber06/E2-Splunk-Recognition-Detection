@@ -75,6 +75,7 @@ Nous exécutons la requête :
 ```spl
 index=main sourcetype="access_combined_wcookie" status=404 clientip=87.194.216.51
 ```
+![Comportement de l'IP suspecte](3.png)
 
 | Observation | Interprétation |
 |---|---|
@@ -84,7 +85,6 @@ index=main sourcetype="access_combined_wcookie" status=404 clientip=87.194.216.5
 
 > ⚠️ La ligne `.../hidden/anna_nicole.html` est particulièrement suspecte. La personne essaie de trouver un contenu caché portant le nom d'une collaboratrice de la société fictive.
 
-![Comportement de l'IP suspecte](3.png)
 
 ---
 
