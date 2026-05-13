@@ -34,7 +34,7 @@ index=main sourcetype="access_combined_wcookie" status=404
 
 Nous obtenons **690 événements**.
 
-Cela représente le nombre total de requêtes `404` émises sur l'ensemble des logs de ce fichier d'exemple.
+Cela représente le nombre total de requêtes `404` émises sur l'ensemble des logs de ce fichier.
 
 Pour rappel, les requêtes `404` correspondent au statut **"Page not found"** : une demande d'une ressource qui n'existe pas sur notre serveur.
 
