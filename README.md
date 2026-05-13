@@ -83,7 +83,7 @@ index=main sourcetype="access_combined_wcookie" status=404 clientip=87.194.216.5
 | Accès à des pages inexistantes | Navigation hors des sentiers battus |
 | Tentative d'accès à `.../hidden/anna_nicole.html` | Recherche de contenu caché avec le nom d'une collaboratrice |
 
-> ⚠️ La ligne `.../hidden/anna_nicole.html` est particulièrement suspecte. La personne essaie de trouver un contenu caché portant le nom d'une collaboratrice de la société fictive.
+> ⚠️ La ligne `.../hidden/anna_nicole.html` est particulièrement suspecte. La personne essaie de trouver un contenu caché portant le nom d'une collaboratrice de la société.
 
 
 ---
