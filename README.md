@@ -97,6 +97,8 @@ index=main sourcetype="access_combined_wcookie" clientip=87.194.216.51
 | table _time, status, uri
 ```
 
+
+
 En examinant cette dernière capture, on peut voir que l'attaquant essaie d'accéder à des fichiers très confidentiels, comme par exemple `password.pdf` — et ce **3 fois**, à des dates différentes.
 
 ![Reconstruction de la navigation](4.png)
@@ -114,7 +116,7 @@ En examinant cette dernière capture, on peut voir que l'attaquant essaie d'acc�
 | Tentative d'accès à `passwords.pdf` (x3) | ❌ Cible de fichiers sensibles |
 | Requêtes espacées dans le temps | ⚠️ Reconnaissance manuelle probable |
 
-Ce qui rend cette reconnaissance particulièrement préoccupante, c'est sa persistance : la même IP tente d'accéder à /passwords.pdf à trois reprises, sur des jours différents. Ce n'est pas opportuniste — c'est méthodique. L'attaquant reviendra tant qu'il n'aura pas trouvé ce qu'il cherche.
+Ce qui rend cette reconnaissance particulièrement préoccupante, c'est sa persistance : la même IP tente d'accéder à /passwords.pdf à trois reprises, sur des jours différents. Ce n'est pas opportuniste — c'est méthodique.
 
 On peut en conclure qu'il s'agit d'une personne en **reconnaissance active**, avec des intentions malveillantes, qui cherche des chemins d'accès et tente d'atteindre des fichiers sensibles de la société. Elle reviendra tant qu'elle n'aura pas trouvé ce qu'elle cherche — on suppose une porte ouverte afin de pénétrer dans notre serveur et d'agir.
 
