@@ -145,4 +145,7 @@ Dans un environnement d'entreprise, voici comment une équipe SOC répondrait :
 
 ---
 
-*Fichiers utilisés : `tutorialdata.zip` — disponibles en libre accès sur la plateforme Splunk.*
+## 📁 Reproduire cette analyse
+
+Le dataset utilisé est le `tutorialdata.zip` officiel de Splunk, disponible gratuitement ici :
+[https://docs.splunk.com/Documentation/Splunk/latest/SearchTutorial/GettingthetutorialData](https://docs.splunk.com/Documentation/Splunk/latest/SearchTutorial/GettingthetutorialData)
