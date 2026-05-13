@@ -148,4 +148,4 @@ Dans un environnement d'entreprise, voici comment une équipe SOC répondrait :
 ## 📁 Reproduire cette analyse
 
 Le dataset utilisé est le `tutorialdata.zip` officiel de Splunk, disponible gratuitement ici :
-[https://docs.splunk.com/Documentation/Splunk/latest/SearchTutorial/GettingthetutorialData](https://docs.splunk.com/Documentation/Splunk/latest/SearchTutorial/GettingthetutorialData)
+[Télécharger tutorialdata.zip](https://docs.splunk.com/images/Tutorial/tutorialdata.zip)
