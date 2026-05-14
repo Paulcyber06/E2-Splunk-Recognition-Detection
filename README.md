@@ -118,9 +118,12 @@ En examinant cette dernière capture, on peut voir que l'attaquant essaie d'acc�
 | Requêtes espacées dans le temps | ⚠️ Reconnaissance manuelle probable |
 
  Ce type de reconnaissance dite "slow and low" — basse fréquence, longue durée — est délibérément conçu pour passer sous les radars des systèmes de détection basés sur le volume.
+ 
  Ce qui rend cette reconnaissance particulièrement préoccupante, c'est sa persistance : la même IP tente d'accéder à /passwords.pdf à trois reprises, sur des jours différents. Ce n'est pas opportuniste — c'est méthodique.
 
-On peut en conclure qu'il s'agit d'une personne en **reconnaissance active**, avec des intentions malveillantes, qui cherche des chemins d'accès et tente d'atteindre des fichiers sensibles de la société. Elle reviendra tant qu'elle n'aura pas trouvé ce qu'elle cherche — on suppose une porte ouverte afin de pénétrer dans notre serveur et d'agir.
+On peut en conclure qu'il s'agit d'une personne en **reconnaissance active**, avec des intentions malveillantes, qui cherche des chemins d'accès et tente d'atteindre des fichiers sensibles de la société. 
+
+Elle reviendra sûrement tant qu'elle n'aura pas trouvé ce qu'elle cherche — on suppose une porte ouverte afin de pénétrer dans notre serveur et d'agir.
 
 ---
 
