@@ -156,6 +156,8 @@ Dans un environnement d'entreprise, voici comment une équipe SOC répondrait :
 
 <br>
 </div>
+
+
 ---
 
 ## 📁 Reproduire cette analyse
@@ -163,7 +165,5 @@ Dans un environnement d'entreprise, voici comment une équipe SOC répondrait :
 Le dataset utilisé est le `tutorialdata.zip` officiel de Splunk, disponible gratuitement ici :
 [Télécharger tutorialdata.zip](https://docs.splunk.com/images/Tutorial/tutorialdata.zip)
 
-
----
 
 *© Paulcyber06 — Tous droits réservés.*
