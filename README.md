@@ -101,14 +101,14 @@ index=main sourcetype="access_combined_wcookie" clientip=87.194.216.51
 
 ![Reconstruction de la navigation](4.png)
 
-En examinant cette dernière capture, on peut voir que l'attaquant essaie d'accéder à des fichiers très confidentiels, comme par exemple `password.pdf` — et ce **3 fois**, à des dates différentes.
+En examinant cette dernière capture, on peut voir que l'attaquant essaie d'accéder à des fichiers très confidentiels, comme par exemple `passwords.pdf` — et ce **3 fois**, à des dates différentes.
 
 
 ---
 
 ## 6. Conclusion
 
-> 🔴 ** À première vue, Cette IP est en train de mener une reconnaissance active avec des intentions malveillantes.**
+> 🔴 **À première vue, cette IP mène une reconnaissance active avec des intentions malveillantes.**
 
 | Indicateur | Constat |
 |---|---|
@@ -123,7 +123,7 @@ En examinant cette dernière capture, on peut voir que l'attaquant essaie d'acc�
 
 On peut en conclure qu'il s'agit d'une personne en **reconnaissance active**, avec des intentions malveillantes, qui cherche des chemins d'accès et tente d'atteindre des fichiers sensibles de la société. 
 
-Elle reviendra sûrement tant qu'elle n'aura pas trouvé ce qu'elle cherche — on suppose une porte ouverte afin de pénétrer dans notre serveur et d'agir.
+Elle reviendra probablement tant qu'elle n'aura pas trouvé ce qu'elle cherche — l'objectif final reste indéterminé à ce stade de l'investigation.
 
 ---
 
