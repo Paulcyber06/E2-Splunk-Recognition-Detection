@@ -44,8 +44,11 @@ Cela peut arriver dans des cas normaux :
 - Une page supprimée
 
   
+<br>
 
 ![Observation initiale — 690 événements](1.png)
+
+<br>
 
 > ⚠️ 690 événements méritent une investigation pour s'assurer qu'aucune IP ne concentre un volume anormal de requêtes. On considère que 1 à 2 requêtes 404 par adresse IP reste relativement normal. À l'inverse, une IP qui revient régulièrement sur les mêmes URLs sensibles devient une situation anormale et pourrait signifier une reconnaissance active en cours.
 
@@ -61,7 +64,11 @@ index=main sourcetype="access_combined_wcookie" status=404
 | sort - count
 | head 10
 ```
+<br>
+
 ![Top 10 des adresses IP par nombre de requêtes 404](2.png)
+
+<br>
 
 
 Nous trouvons **10 adresses IP** au total, avec la première qui cumule **20 requêtes**. Rien d'anormal dans la vie de tous les jours, mais dans notre scénario, nous allons considérer que cela est étrange afin de faciliter la suite de l'enquête.​
@@ -77,7 +84,12 @@ Nous exécutons la requête :
 ```spl
 index=main sourcetype="access_combined_wcookie" status=404 clientip=87.194.216.51
 ```
+
+<br>
+
 ![Comportement de l'IP suspecte](3.png)
+
+<br>
 
 | Observation | Interprétation |
 |---|---|
@@ -98,8 +110,11 @@ On décide d'élargir l'investigation et d'essayer de comprendre ce que cette IP
 index=main sourcetype="access_combined_wcookie" clientip=87.194.216.51
 | table _time, status, uri
 ```
+<br>
 
 ![Reconstruction de la navigation](4.png)
+
+<br>
 
 En examinant cette dernière capture, on peut voir que l'attaquant essaie d'accéder à des fichiers très confidentiels, comme par exemple `passwords.pdf` — et ce **3 fois**, à des dates différentes.
 
