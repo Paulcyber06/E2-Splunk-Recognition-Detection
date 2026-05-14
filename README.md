@@ -152,7 +152,7 @@ Dans un environnement d'entreprise, voici comment une équipe SOC répondrait :
 <br>
 
 [![⬅️ Précédent](https://img.shields.io/badge/⬅️%20Précédent--grey?style=for-the-badge)](https://github.com/Paulcyber06/E1-Phishing-Proton-Brand-Impersonation)
-[![➡️ Suivant](https://img.shields.io/badge/➡️%20Suivant--blue?style=for-the-badge)](https://github.com/Paulcyber06/E3-Splunk-Behavioral-Analysis)
+[![➡️ Suivant](https://img.shields.io/badge/➡️%20Suivant--grey?style=for-the-badge)](https://github.com/Paulcyber06/E3-Splunk-Behavioral-Analysis)
 
 <br>
 </div>
