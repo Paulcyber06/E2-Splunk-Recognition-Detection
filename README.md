@@ -147,7 +147,6 @@ Dans un environnement d'entreprise, voici comment une équipe SOC répondrait :
   
 - Escalader selon les découvertes
 
-- 
 <div align="center">
 <br>
 
