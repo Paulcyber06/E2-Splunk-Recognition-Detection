@@ -43,6 +43,8 @@ Cela peut arriver dans des cas normaux :
 - Un lien cassé sur le site
 - Une page supprimée
 
+  
+
 ![Observation initiale — 690 événements](1.png)
 
 > ⚠️ 690 événements méritent une investigation pour s'assurer qu'aucune IP ne concentre un volume anormal de requêtes. On considère que 1 à 2 requêtes 404 par adresse IP reste relativement normal. À l'inverse, une IP qui revient régulièrement sur les mêmes URLs sensibles devient une situation anormale et pourrait signifier une reconnaissance active en cours.
