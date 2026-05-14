@@ -147,15 +147,15 @@ Dans un environnement d'entreprise, voici comment une équipe SOC répondrait :
   
 - Escalader selon les découvertes
 
+- 
 <div align="center">
 <br>
 
-[![⬅️ Retour au profil](https://img.shields.io/badge/⬅️%20Retour--grey?style=for-the-badge)](https://github.com/Paulcyber06)
-[![➡️ Suivant](https://img.shields.io/badge/➡️%20Suivant--blue?style=for-the-badge)](https://github.com/Paulcyber06/E2-Splunk-Recognition-Detection)
+[![⬅️ Précédent](https://img.shields.io/badge/⬅️%20Précédent--grey?style=for-the-badge)](https://github.com/Paulcyber06/E1-Phishing-Proton-Brand-Impersonation)
+[![➡️ Suivant](https://img.shields.io/badge/➡️%20Suivant--blue?style=for-the-badge)](https://github.com/Paulcyber06/E3-Splunk-Behavioral-Analysis)
 
 <br>
 </div>
-
 ---
 
 ## 📁 Reproduire cette analyse
