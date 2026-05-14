@@ -143,7 +143,7 @@ Dans un environnement d'entreprise, voici comment une équipe SOC répondrait :
   
 ### 🔍 Investigation complémentaire
 
-- Vérifier les requêtes `200` (Status OK) de cette IP pour savoir si elle a réussi à accéder à quelque chose
+- Vérifier les requêtes `200` (Status OK) de cette IP pour savoir si elle a réussi à accéder à quelque chose ( Ce que nous allons faire à la suite dans l'Épisode 3 )
   
 - Escalader selon les découvertes
 
