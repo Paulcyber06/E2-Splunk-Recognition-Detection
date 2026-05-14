@@ -70,7 +70,7 @@ Nous trouvons **10 adresses IP** au total, avec la première qui cumule **20 req
 
 ## 4. Analyse — Comportement de l'IP suspecte
 
-Nous allons essayer de savoir ce que recherchait l'adresse `87.194.216.51`, afin de déterminer si ce sont uniquement des URLs erronées — potentiellement supprimées depuis peu — ou bien une tentative de découverte de contenu caché.
+Nous allons essayer de savoir ce que recherchait l'adresse `87.194.216.51`, afin de déterminer si ce sont uniquement des requêtes avec des URLs erronées — potentiellement supprimées depuis peu — ou bien une tentative de découverte de contenu caché.
 
 Nous exécutons la requête :
 
