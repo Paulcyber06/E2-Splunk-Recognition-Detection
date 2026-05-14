@@ -99,11 +99,10 @@ index=main sourcetype="access_combined_wcookie" clientip=87.194.216.51
 | table _time, status, uri
 ```
 
-
+![Reconstruction de la navigation](4.png)
 
 En examinant cette dernière capture, on peut voir que l'attaquant essaie d'accéder à des fichiers très confidentiels, comme par exemple `password.pdf` — et ce **3 fois**, à des dates différentes.
 
-![Reconstruction de la navigation](4.png)
 
 ---
 
