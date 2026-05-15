@@ -120,7 +120,7 @@ index=main sourcetype="access_combined_wcookie" clientip=87.194.216.51
 
 <br>
 
-En examinant cette dernière capture, on peut voir que l'attaquant essaie d'accéder à des fichiers très confidentiels, comme par exemple `passwords.pdf` — et ce **3 fois**, à des dates différentes.
+En examinant cette dernière capture, on peut voir que l'attaquant essaie d'accéder à des fichiers très confidentiels, comme par exemple `passwords.pdf` et ce **3 fois**, à des dates différentes.
 
 
 ---
