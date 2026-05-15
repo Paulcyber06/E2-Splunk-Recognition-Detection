@@ -18,7 +18,7 @@
 
 ## 1. Contexte
 
-Quelques jours après la tentative de phishing, les logs du serveur web de Buttercup Games révèlent une activité anormale. Une adresse IP inconnue sonde activement l'application web à la recherche de fichiers sensibles — notamment `/passwords.pdf`.
+Quelques jours après la tentative de phishing, les logs du serveur web de Buttercup Games révèlent une activité anormale. Une adresse IP inconnue sonde activement l'application web à la recherche de fichiers sensibles, notamment `/passwords.pdf`.
 
 Le SOC lance une investigation via Splunk pour identifier et caractériser cette activité de reconnaissance. L'attaquant, n'ayant pas réussi à piéger un employé par phishing, tente maintenant d'obtenir directement des informations d'accès.
 
@@ -38,7 +38,8 @@ Cela représente le nombre total de requêtes `404` émises sur l'ensemble des l
 
 Pour rappel, les requêtes `404` correspondent au statut **"Page not found"** : une demande d'une ressource qui n'existe pas sur notre serveur.
 
-Cela peut arriver dans des cas normaux :
+Cela peut arriver dans des cas normaux comme :
+
 - Un utilisateur tape une mauvaise URL
 - Un lien cassé sur le site
 - Une page supprimée
@@ -100,7 +101,7 @@ index=main sourcetype="access_combined_wcookie" status=404 clientip=87.194.216.5
 
 <br>
 
-> ⚠️ La ligne `.../hidden/anna_nicole.html` est particulièrement suspecte. La personne essaie de trouver un contenu caché portant le nom d'une collaboratrice de la société.
+> ⚠️ La ligne `.../hidden/anna_nicole.html` est particulièrement suspecte. La personne essaie de trouver un contenu caché portant le nom d'une employée.
 
 
 ---
@@ -139,13 +140,13 @@ En examinant cette dernière capture, on peut voir que l'attaquant essaie d'acc�
 
 <br>
 
- Ce type de reconnaissance dite "slow and low" — basse fréquence, longue durée — est délibérément conçu pour passer sous les radars des systèmes de détection basés sur le volume.
+ Ce type de reconnaissance est délibérément conçu pour passer sous les radars des systèmes de détection basés sur le volume.
  
- Ce qui rend cette reconnaissance particulièrement préoccupante, c'est sa persistance : la même IP tente d'accéder à /passwords.pdf à trois reprises, sur des jours différents. Ce n'est pas opportuniste — c'est méthodique.
+ Ce qui rend cette reconnaissance particulièrement préoccupante, c'est sa persistance : la même IP tente d'accéder à /passwords.pdf à trois reprises, sur des jours différents. Ce n'est pas opportuniste mais méthodique.
 
 On peut en conclure qu'il s'agit d'une personne en **reconnaissance active**, avec des intentions malveillantes, qui cherche des chemins d'accès et tente d'atteindre des fichiers sensibles de la société. 
 
-Elle reviendra probablement tant qu'elle n'aura pas trouvé ce qu'elle cherche — l'objectif final reste indéterminé à ce stade de l'investigation.
+Elle reviendra probablement tant qu'elle n'aura pas trouvé ce qu'elle cherche. L'objectif final reste indéterminé à ce stade de l'investigation.
 
 ---
 
@@ -167,7 +168,7 @@ Dans un environnement d'entreprise, voici comment une équipe SOC répondrait :
 
 - Vérifier les requêtes `200` (Status OK) de cette IP pour savoir si elle a réussi à accéder à quelque chose ( Ce que nous allons faire à la suite dans l'Épisode 3 )
   
-- Escalader selon les découvertes
+- Escalader selon les découvertes au niveau 2
 
 <div align="center">
 <br>
