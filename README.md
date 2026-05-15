@@ -1,6 +1,6 @@
 # Épisode 2 — Splunk : Détection d'une Reconnaissance Web
 
-> Deuxième incident dans la série d'attaques contre **Buttercup Games** — l'attaquant, ayant échoué par phishing, sonde maintenant directement le serveur web à la recherche de fichiers sensibles.
+> Deuxième incident dans la série d'attaques contre **Buttercup Games**. L'attaquant, ayant échoué par phishing, sonde maintenant directement le serveur web à la recherche de fichiers sensibles.
 
 ---
 
